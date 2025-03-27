@@ -9,12 +9,12 @@ import SOne_index_search from "../assets/images/SOne_index_search.png";
 export default function Banner() {
   return (
     <div>
-      <div className="flex justify-between">
-        <div className="w-[280]">
+      <div className="flex flex-col md:flex-row md:justify-between items-center w-full">
+        <div className="w-full md:w-[280] md:me-2">
           <div className="bg-[#f05a28] h-[36] Su_white21 flex items-center ps-2">
             ค้นหายาง
           </div>
-          <div className="background_Type h-[264] flex flex-col items-end">
+          <div className="background_Type bg-stone-800 h-[264] flex flex-col items-center md:items-end md:p-2">
             <div className="">
               <p className="Su_white21">
                 หน้ายาง <br />
@@ -51,7 +51,7 @@ export default function Banner() {
             </div>
           </div>
         </div>
-        <div className="background_Banner h-[300] w-[900]">
+        <div className="background_Banner h-[300] w-full mt-2 md:mt-0 md:w-[900]">
           <div className="flex flex-col justify-center items-end gap-2 h-full me-3">
             <div className="flex flex-col gap-2">
               <Image src={SOne_index_arrowup} alt="" className="self-center" />

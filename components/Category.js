@@ -18,8 +18,8 @@ export default function Category() {
     { id: 5, name: "การรับประกันสินค้า", image: SOne_index_bt_guarantee },
   ]);
   return (
-    <div>
-      <div className="flex justify-between">
+    <div className="flex justify-center" >
+      <div className="grid grid-cols-2 md:grid-cols-6 gap-2 md:gap-4">
         {category.map((item) => (
           <div key={item.id}>
             <Image src={item.image} alt="" />

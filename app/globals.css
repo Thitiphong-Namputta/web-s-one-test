@@ -32,10 +32,17 @@ body {
 .background_Tip_Person {
   background-image: url(../assets/images/SOne_index_tips1.png) !important;
   background-repeat: no-repeat !important;
+  z-index: 99;
 }
+
 .background_Tip_Person_Text {
   background-image: url(../assets/images/SOne_index_tips2.png) !important;
-  background-repeat: no-repeat !important;
+  /* background-repeat: no-repeat !important; */
+}
+
+.background_Dash {
+  background-image: url(../assets/images/SOne_index_dash--.png) !important;
+  background-repeat: repeat-x !important;
 }
 
 .Su_white21 {
@@ -255,7 +262,7 @@ a:hover.link_T-black14 {
 
 .formLoginsearch {
   background-color: #ffffff;
-  border: none;
+  /* border: none; */
   width: 210px;
   height: 21px;
 }
@@ -269,7 +276,7 @@ a:hover.link_T-black14 {
 
 .formLoginsend {
   background-color: #ffffff;
-  border: none;
+  /* border: none; */
   width: 155px;
   height: 21px;
 }
